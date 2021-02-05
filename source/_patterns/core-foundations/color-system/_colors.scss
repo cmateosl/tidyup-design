@@ -1,0 +1,28 @@
+.sd-colors > li {
+  width: 16rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  & > .sd-main-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    & > span {
+      font-weight: bold;
+    }
+  }
+
+  & > .sd-attr-label {
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  &:last-child > .sd-attr-label {
+    border-bottom: 0;
+  }
+}
